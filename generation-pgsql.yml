@@ -1,0 +1,46 @@
+#---------------------------------#
+# project section - shared project variables
+#---------------------------------#
+project:
+  namespace: 'Inmobiliaria'                # Root namespace del proyecto
+  directory: Inmobiliaria                  # Ruta raíz del código fuente
+  nullable: true                           # Soporte para tipos anulables (C# 8+)
+  fileScopedNamespace: true                # Espacios de nombres con archivo
+
+#---------------------------------#
+# database connection
+#---------------------------------#
+database:
+  connectionString: 'Host=localhost;Port=5432;Database=inmobiliaria1;Username=postgres;Password=123456789;Ssl Mode=disable'
+  #'Host=dpg-d22qq37gi27c73f8jbsg-a.oregon-postgres.render.com;Port=5432;Database=inmobiliaria;Username=inmobiliaria_xhtv_user;Password=1N0woJhtwQhV7aNp28rXh4dnBdWzZqc4;Ssl Mode=Require;Trust Server Certificate=true' 
+  #Host=pg-server.onrender.com;Port=5432;Database=inmobiliaria_db;Username=postgres;Password=TU_CONTRASEÑA;Trust Server Certificate=true;Ssl Mode=Require
+  provider: PostgreSQL
+
+#---------------------------------#
+# configuración de EF Core Generator
+#---------------------------------#
+data:
+  context:
+    name: 'AppDbContext'                   # Clase del contexto
+    baseClass: DbContext
+    namespace: '{Project.Namespace}.Data'
+    directory: '{Project.Directory}/Data'
+    propertyNaming: Preserve
+
+  entity:
+    namespace: '{Project.Namespace}.Data.Entities'
+    directory: '{Project.Directory}/Data/Entities'
+    entityNaming: Preserve
+    relationshipNaming: Preserve
+
+  mapping:
+    namespace: '{Project.Namespace}.Data.Mapping.PG'
+    directory: '{Project.Directory}/Data/Mapping/PG'
+    temporal: false
+
+  query:
+    generate: true
+    indexPrefix: By
+    uniquePrefix: GetBy
+    namespace: '{Project.Namespace}.Data.Queries'
+    directory: '{Project.Directory}/Data/Queries'

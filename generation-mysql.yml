@@ -1,0 +1,44 @@
+#---------------------------------#
+# project section - shared project variables
+#---------------------------------#
+project:
+  namespace: 'Inmobiliaria'                # Root namespace del proyecto
+  directory:  Inmobiliaria       # Ruta raíz del código fuente
+  nullable: true                           # Soporte para tipos anulables (C# 8+)
+  fileScopedNamespace: true                # Espacios de nombres con archivo
+
+#---------------------------------#
+# database connection
+#---------------------------------#
+database:
+  connectionString: 'Server=localhost;Port=3306;Database=inmobiliaria_db;Uid=root;Pwd=123456789;'
+  provider: MySQL
+
+#---------------------------------#
+# configuración de EF Core Generator
+#---------------------------------#
+data:
+  context:
+    name: 'AppDbContext'                   # Clase del contexto
+    baseClass: DbContext
+    namespace: '{Project.Namespace}.Data'
+    directory: '{Project.Directory}/Data'
+    propertyNaming: Preserve
+
+  entity:
+    namespace: '{Project.Namespace}.Data.Entities'
+    directory: '{Project.Directory}/Data/Entities'
+    entityNaming: Preserve
+    relationshipNaming: Preserve
+
+  mapping:
+    namespace: '{Project.Namespace}.Data.Mapping.MySQL'
+    directory: '{Project.Directory}/Data/Mapping/MySQL'
+    temporal: false
+
+  query:
+    generate: true
+    indexPrefix: By
+    uniquePrefix: GetBy
+    namespace: '{Project.Namespace}.Data.Queries'
+    directory: '{Project.Directory}/Data/Queries'
