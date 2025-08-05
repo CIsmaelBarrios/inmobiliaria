@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rlf7lv4gdbs=",
+  "dgSpecHash": "esmoqGcSv7A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria.csproj",
+  "projectFilePath": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\inmobiliaria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pao_Isma\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Pao_Isma\\.nuget\\packages\\fluentmigrator\\7.1.0\\fluentmigrator.7.1.0.nupkg.sha512",
