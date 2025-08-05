@@ -13,11 +13,11 @@ public partial class UnidadesFuncionales
     }
 
     #region Generated Properties
-    public Guid IdUnidad { get; set; }
+    public long IdUnidad { get; set; }
 
-    public Guid IdTenant { get; set; }
+    public long IdTenant { get; set; }
 
-    public Guid IdPropiedad { get; set; }
+    public long IdPropiedad { get; set; }
 
     public string Codigo { get; set; } = null!;
 
@@ -37,13 +37,13 @@ public partial class UnidadesFuncionales
 
     public int? Baños { get; set; }
 
-    public int? Cocheras { get; set; }
+    public int Cocheras { get; set; }
 
-    public bool? Balcon { get; set; }
+    public bool Balcon { get; set; }
 
-    public bool? Terraza { get; set; }
+    public bool Terraza { get; set; }
 
-    public bool? Parrilla { get; set; }
+    public bool Parrilla { get; set; }
 
     public string Estado { get; set; } = null!;
 
@@ -51,11 +51,11 @@ public partial class UnidadesFuncionales
 
     public decimal? PrecioVenta { get; set; }
 
-    public decimal? Expensas { get; set; }
+    public decimal Expensas { get; set; }
 
     public string? Descripcion { get; set; }
 
-    public string? Caracteristicas { get; set; }
+    public string Caracteristicas { get; set; } = null!;
 
     public bool Activo { get; set; }
 

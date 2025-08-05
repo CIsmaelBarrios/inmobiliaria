@@ -14,15 +14,15 @@ public partial class Contratos
     }
 
     #region Generated Properties
-    public Guid IdContrato { get; set; }
+    public long IdContrato { get; set; }
 
-    public Guid IdTenant { get; set; }
+    public long IdTenant { get; set; }
 
-    public Guid IdInquilino { get; set; }
+    public long IdInquilino { get; set; }
 
-    public Guid? IdPropiedad { get; set; }
+    public long? IdPropiedad { get; set; }
 
-    public Guid? IdUnidad { get; set; }
+    public long? IdUnidad { get; set; }
 
     public string? NumeroContrato { get; set; }
 
@@ -32,11 +32,11 @@ public partial class Contratos
 
     public decimal MontoMensual { get; set; }
 
-    public decimal? MontoDeposito { get; set; }
+    public decimal MontoDeposito { get; set; }
 
-    public decimal? AjustePorcentaje { get; set; }
+    public decimal AjustePorcentaje { get; set; }
 
-    public int? PeriodoAjuste { get; set; }
+    public int PeriodoAjuste { get; set; }
 
     public DateOnly? FechaUltimoAjuste { get; set; }
 

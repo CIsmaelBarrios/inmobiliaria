@@ -21,18 +21,18 @@ public partial class PagosMap
         builder.Property(t => t.IdPago)
             .IsRequired()
             .HasColumnName("id_pago")
-            .HasColumnType("uuid")
-            .HasDefaultValueSql("uuid_generate_v4()");
+            .HasColumnType("bigint")
+            .ValueGeneratedOnAdd();
 
         builder.Property(t => t.IdTenant)
             .IsRequired()
             .HasColumnName("id_tenant")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.IdContrato)
             .IsRequired()
             .HasColumnName("id_contrato")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.NumeroRecibo)
             .HasColumnName("numero_recibo")
@@ -60,24 +60,24 @@ public partial class PagosMap
             .HasColumnType("numeric(10,2)");
 
         builder.Property(t => t.MontoExpensas)
+            .IsRequired()
             .HasColumnName("monto_expensas")
-            .HasColumnType("numeric(10,2)")
-            .HasDefaultValueSql("0");
+            .HasColumnType("numeric(10,2)");
 
         builder.Property(t => t.MontoServicios)
+            .IsRequired()
             .HasColumnName("monto_servicios")
-            .HasColumnType("numeric(10,2)")
-            .HasDefaultValueSql("0");
+            .HasColumnType("numeric(10,2)");
 
         builder.Property(t => t.Recargos)
+            .IsRequired()
             .HasColumnName("recargos")
-            .HasColumnType("numeric(10,2)")
-            .HasDefaultValueSql("0");
+            .HasColumnType("numeric(10,2)");
 
         builder.Property(t => t.Descuentos)
+            .IsRequired()
             .HasColumnName("descuentos")
-            .HasColumnType("numeric(10,2)")
-            .HasDefaultValueSql("0");
+            .HasColumnType("numeric(10,2)");
 
         builder.Property(t => t.FormaPago)
             .IsRequired()
@@ -104,7 +104,7 @@ public partial class PagosMap
             .IsRequired()
             .HasColumnName("fecha_creacion")
             .HasColumnType("timestamp without time zone")
-            .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            .HasDefaultValueSql("now()");
 
         builder.Property(t => t.Eliminado)
             .IsRequired()
@@ -117,15 +117,15 @@ public partial class PagosMap
             .HasColumnType("timestamp without time zone");
 
         // relationships
-        builder.HasOne(t => t.Contratos)
-            .WithMany(t => t.Pagos)
-            .HasForeignKey(d => d.IdContrato)
-            .HasConstraintName("fk_pagos_contrato");
-
         builder.HasOne(t => t.Tenants)
             .WithMany(t => t.Pagos)
             .HasForeignKey(d => d.IdTenant)
             .HasConstraintName("fk_pagos_tenant");
+
+        builder.HasOne(t => t.Contratos)
+            .WithMany(t => t.Pagos)
+            .HasForeignKey(d => d.IdContrato)
+            .HasConstraintName("fk_pagos_contrato");
 
         #endregion
     }

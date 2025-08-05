@@ -1,36 +1,31 @@
+using FluentMigrator.Runner;
+using Microsoft.EntityFrameworkCore;
 using Inmobiliaria.Data;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Cargar configuración desde appsettings.json y variables de entorno
+// Configuración normal (appsettings, CORS, controllers, swagger, etc.)
 builder.Configuration
     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
     .AddJsonFile("appsettings.override.json", optional: true, reloadOnChange: true)
     .AddEnvironmentVariables()
     .AddCommandLine(args);
 
-// Configurar CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
     {
-        policy
-            .AllowAnyOrigin() // o .WithOrigins("http://localhost:4200") si querés limitar
-            .AllowAnyMethod()
-            .AllowAnyHeader();
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
     });
 });
 
-
-
-
-// Configurar JSON con referencias preservadas (evita ciclos infinitos)
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
@@ -38,16 +33,23 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.WriteIndented = true;
     });
 
-// Obtener cadena de conexión de PostgreSQL
+// Obtener cadena de conexión desde appsettings.json
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-// Configurar EF Core con PostgreSQL
+// Registrar DbContext para Entity Framework Core con PostgreSQL
 builder.Services.AddDbContext<AppDbContext>(options =>
-{
-    options.UseNpgsql(connectionString);
-});
+    options.UseNpgsql(connectionString)
+);
 
-// Configurar Swagger
+// Registrar FluentMigrator runner para PostgreSQL
+builder.Services.AddFluentMigratorCore()
+    .ConfigureRunner(rb => rb
+        .AddPostgres()
+        .WithGlobalConnectionString(connectionString)
+        .ScanIn(typeof(Program).Assembly)
+    )
+    .AddLogging(lb => lb.AddFluentMigratorConsole());
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -60,7 +62,13 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// Middlewares
+// Ejecutar migraciones al iniciar la aplicación
+using (var scope = app.Services.CreateScope())
+{
+    var migrator = scope.ServiceProvider.GetRequiredService<IMigrationRunner>();
+    migrator.MigrateUp();
+}
+
 app.UseHttpsRedirection();
 app.UseCors("AllowAll");
 

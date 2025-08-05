@@ -95,9 +95,9 @@ namespace Inmobiliaria.Controllers
                 return Conflict("Ya existe un usuario con ese email en el tenant.");
 
             // 3. Crear usuario con fechas en Kind=Unspecified
+            // 3. Crear usuario con fechas en Kind=Unspecified
             var nuevo = new Usuarios
             {
-                IdUsuario = Guid.NewGuid(),
                 IdTenant = tenant.IdTenant,
                 Nombre = request.Nombre,
                 Apellido = request.Apellido,
@@ -109,6 +109,7 @@ namespace Inmobiliaria.Controllers
                 Eliminado = false,
                 FechaCreacion = DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Unspecified)
             };
+
 
             _context.Usuarios.Add(nuevo);
             await _context.SaveChangesAsync();

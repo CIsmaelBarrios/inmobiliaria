@@ -13,9 +13,9 @@ public partial class Propietarios
     }
 
     #region Generated Properties
-    public Guid IdPropietario { get; set; }
+    public long IdPropietario { get; set; }
 
-    public Guid IdTenant { get; set; }
+    public long IdTenant { get; set; }
 
     public string Nombre { get; set; } = null!;
 

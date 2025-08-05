@@ -21,18 +21,18 @@ public partial class PropiedadesMap
         builder.Property(t => t.IdPropiedad)
             .IsRequired()
             .HasColumnName("id_propiedad")
-            .HasColumnType("uuid")
-            .HasDefaultValueSql("uuid_generate_v4()");
+            .HasColumnType("bigint")
+            .ValueGeneratedOnAdd();
 
         builder.Property(t => t.IdTenant)
             .IsRequired()
             .HasColumnName("id_tenant")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.IdPropietario)
             .IsRequired()
             .HasColumnName("id_propietario")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.Nombre)
             .HasColumnName("nombre")
@@ -89,15 +89,16 @@ public partial class PropiedadesMap
             .HasColumnType("numeric(12,2)");
 
         builder.Property(t => t.Expensas)
+            .IsRequired()
             .HasColumnName("expensas")
-            .HasColumnType("numeric(10,2)")
-            .HasDefaultValueSql("0");
+            .HasColumnType("numeric(10,2)");
 
         builder.Property(t => t.Descripcion)
             .HasColumnName("descripcion")
             .HasColumnType("text");
 
         builder.Property(t => t.Caracteristicas)
+            .IsRequired()
             .HasColumnName("caracteristicas")
             .HasColumnType("jsonb")
             .HasDefaultValueSql("'{}'::jsonb");
@@ -112,13 +113,13 @@ public partial class PropiedadesMap
             .IsRequired()
             .HasColumnName("fecha_creacion")
             .HasColumnType("timestamp without time zone")
-            .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            .HasDefaultValueSql("now()");
 
         builder.Property(t => t.FechaActualizacion)
             .IsRequired()
             .HasColumnName("fecha_actualizacion")
             .HasColumnType("timestamp without time zone")
-            .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            .HasDefaultValueSql("now()");
 
         builder.Property(t => t.Eliminado)
             .IsRequired()

@@ -19,7 +19,7 @@ public static partial class PagosExtensions
         return queryable.Where(q => q.FechaPago == fechaPago);
     }
 
-    public static System.Linq.IQueryable<Inmobiliaria.Data.Entities.Pagos> ByIdContrato(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Pagos> queryable, Guid idContrato)
+    public static System.Linq.IQueryable<Inmobiliaria.Data.Entities.Pagos> ByIdContrato(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Pagos> queryable, long idContrato)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));
@@ -27,7 +27,7 @@ public static partial class PagosExtensions
         return queryable.Where(q => q.IdContrato == idContrato);
     }
 
-    public static Inmobiliaria.Data.Entities.Pagos? GetByKey(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Pagos> queryable, Guid idPago)
+    public static Inmobiliaria.Data.Entities.Pagos? GetByKey(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Pagos> queryable, long idPago)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));
@@ -38,7 +38,7 @@ public static partial class PagosExtensions
         return queryable.FirstOrDefault(q => q.IdPago == idPago);
     }
 
-    public static async System.Threading.Tasks.ValueTask<Inmobiliaria.Data.Entities.Pagos?> GetByKeyAsync(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Pagos> queryable, Guid idPago, System.Threading.CancellationToken cancellationToken = default)
+    public static async System.Threading.Tasks.ValueTask<Inmobiliaria.Data.Entities.Pagos?> GetByKeyAsync(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Pagos> queryable, long idPago, System.Threading.CancellationToken cancellationToken = default)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));
@@ -49,20 +49,12 @@ public static partial class PagosExtensions
         return await queryable.FirstOrDefaultAsync(q => q.IdPago == idPago, cancellationToken);
     }
 
-    public static System.Linq.IQueryable<Inmobiliaria.Data.Entities.Pagos> ByIdTenant(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Pagos> queryable, Guid idTenant)
+    public static System.Linq.IQueryable<Inmobiliaria.Data.Entities.Pagos> ByIdTenant(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Pagos> queryable, long idTenant)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));
 
         return queryable.Where(q => q.IdTenant == idTenant);
-    }
-
-    public static System.Linq.IQueryable<Inmobiliaria.Data.Entities.Pagos> ByMesCorrespondiente(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Pagos> queryable, DateOnly mesCorrespondiente)
-    {
-        if (queryable is null)
-            throw new ArgumentNullException(nameof(queryable));
-
-        return queryable.Where(q => q.MesCorrespondiente == mesCorrespondiente);
     }
 
     #endregion

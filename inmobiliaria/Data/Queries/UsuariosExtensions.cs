@@ -19,7 +19,7 @@ public static partial class UsuariosExtensions
         return queryable.Where(q => q.Email == email);
     }
 
-    public static System.Linq.IQueryable<Inmobiliaria.Data.Entities.Usuarios> ByIdTenant(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Usuarios> queryable, Guid idTenant)
+    public static System.Linq.IQueryable<Inmobiliaria.Data.Entities.Usuarios> ByIdTenant(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Usuarios> queryable, long idTenant)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));
@@ -27,7 +27,7 @@ public static partial class UsuariosExtensions
         return queryable.Where(q => q.IdTenant == idTenant);
     }
 
-    public static Inmobiliaria.Data.Entities.Usuarios? GetByKey(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Usuarios> queryable, Guid idUsuario)
+    public static Inmobiliaria.Data.Entities.Usuarios? GetByKey(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Usuarios> queryable, long idUsuario)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));
@@ -38,7 +38,7 @@ public static partial class UsuariosExtensions
         return queryable.FirstOrDefault(q => q.IdUsuario == idUsuario);
     }
 
-    public static async System.Threading.Tasks.ValueTask<Inmobiliaria.Data.Entities.Usuarios?> GetByKeyAsync(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Usuarios> queryable, Guid idUsuario, System.Threading.CancellationToken cancellationToken = default)
+    public static async System.Threading.Tasks.ValueTask<Inmobiliaria.Data.Entities.Usuarios?> GetByKeyAsync(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Usuarios> queryable, long idUsuario, System.Threading.CancellationToken cancellationToken = default)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));

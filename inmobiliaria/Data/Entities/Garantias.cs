@@ -12,11 +12,11 @@ public partial class Garantias
     }
 
     #region Generated Properties
-    public Guid IdGarantia { get; set; }
+    public long IdGarantia { get; set; }
 
-    public Guid IdTenant { get; set; }
+    public long IdTenant { get; set; }
 
-    public Guid IdContrato { get; set; }
+    public long IdContrato { get; set; }
 
     public string Tipo { get; set; } = null!;
 
@@ -34,7 +34,7 @@ public partial class Garantias
 
     public string? Observaciones { get; set; }
 
-    public string? Documentos { get; set; }
+    public string Documentos { get; set; } = null!;
 
     public bool Activo { get; set; }
 

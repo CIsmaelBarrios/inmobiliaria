@@ -21,13 +21,13 @@ public partial class UsuariosMap
         builder.Property(t => t.IdUsuario)
             .IsRequired()
             .HasColumnName("id_usuario")
-            .HasColumnType("uuid")
-            .HasDefaultValueSql("uuid_generate_v4()");
+            .HasColumnType("bigint")
+            .ValueGeneratedOnAdd();
 
         builder.Property(t => t.IdTenant)
             .IsRequired()
             .HasColumnName("id_tenant")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.Nombre)
             .IsRequired()
@@ -68,7 +68,7 @@ public partial class UsuariosMap
             .IsRequired()
             .HasColumnName("fecha_creacion")
             .HasColumnType("timestamp without time zone")
-            .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            .HasDefaultValueSql("now()");
 
         builder.Property(t => t.FechaUltimoAcceso)
             .HasColumnName("fecha_ultimo_acceso")
