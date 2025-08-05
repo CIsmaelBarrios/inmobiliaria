@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <RootNamespace>Inmobiliaria.Application</RootNamespace>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="FluentMigrator.Runner" Version="7.1.0" />
     <PackageReference Include="FluentMigrator.Runner.Postgres" Version="7.1.0" />
