@@ -1,6 +1,6 @@
 ﻿using Inmobiliaria.Controllers.Contracts;
 using Inmobiliaria.Data;
-using Inmobiliaria.Domain.Entities;
+using Inmobiliaria.Data.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

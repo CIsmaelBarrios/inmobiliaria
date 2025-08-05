@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\data\\entities\\documentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\data\\entities\\documentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\controllers\\contracts\\registerrequestcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,18 +130,17 @@
               "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\ContratoContract.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T14:20:22.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T14:20:22.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TenantController.cs",
               "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\TenantController.cs",
               "RelativeDocumentMoniker": "inmobiliaria\\Controllers\\TenantController.cs",
               "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\TenantController.cs",
               "RelativeToolTip": "inmobiliaria\\Controllers\\TenantController.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAowMoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAYwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T18:35:36.664Z",
               "EditorCaption": ""
@@ -156,8 +155,7 @@
               "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1007_Contratos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T12:17:02.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T12:17:02.163Z"
             },
             {
               "$type": "Document",
@@ -169,12 +167,11 @@
               "RelativeToolTip": "inmobiliaria\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAA/wHAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T14:18:05.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T14:18:05.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Program.cs",
               "RelativeDocumentMoniker": "inmobiliaria\\Program.cs",
@@ -182,8 +179,7 @@
               "RelativeToolTip": "inmobiliaria\\Program.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAwwEcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T14:14:59.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T14:14:59.787Z"
             },
             {
               "$type": "Document",
@@ -195,12 +191,11 @@
               "RelativeToolTip": "inmobiliaria\\Controllers\\InquilinoController.cs",
               "ViewState": "AgIAAIEAAAAAAAAAAAAwwKgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T14:30:56.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T14:30:56.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Documentos.cs",
               "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Data\\Entities\\Documentos.cs",
               "RelativeDocumentMoniker": "inmobiliaria\\Data\\Entities\\Documentos.cs",
@@ -208,8 +203,7 @@
               "RelativeToolTip": "inmobiliaria\\Data\\Entities\\Documentos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T14:51:53.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T14:51:53.343Z"
             },
             {
               "$type": "Document",
@@ -221,8 +215,7 @@
               "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\RegisterRequestContract.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T14:28:35.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T14:28:35.392Z"
             },
             {
               "$type": "Document",
@@ -234,8 +227,7 @@
               "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1010_Documentos.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T12:37:40.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T12:37:40.252Z"
             },
             {
               "$type": "Document",
@@ -247,8 +239,7 @@
               "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\TenantUpdateContract.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T18:33:17.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T18:33:17.16Z"
             },
             {
               "$type": "Document",
@@ -260,8 +251,7 @@
               "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\TenantResponseContract.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T18:34:39.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T18:34:39.285Z"
             },
             {
               "$type": "Document",
@@ -273,8 +263,7 @@
               "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\TenantContract.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T18:26:28.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T18:26:28.325Z"
             },
             {
               "$type": "Document",
@@ -286,8 +275,7 @@
               "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\InquilinosContract.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvx0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T14:27:50.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T14:27:50.405Z"
             },
             {
               "$type": "Document",
@@ -299,8 +287,7 @@
               "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\InquilinoDetalleContract.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T14:25:25.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T14:25:25.182Z"
             },
             {
               "$type": "Document",
@@ -312,8 +299,7 @@
               "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\InquilinoCreateContract.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T14:24:22.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T14:24:22.228Z"
             },
             {
               "$type": "Document",
@@ -325,8 +311,7 @@
               "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1012_CrearIndices.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAcwCMAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T12:52:39.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T12:52:39.484Z"
             },
             {
               "$type": "Document",
@@ -338,8 +323,7 @@
               "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1001_Tenants.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T11:48:49.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T11:48:49.53Z"
             },
             {
               "$type": "Document",
@@ -351,8 +335,7 @@
               "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1002_Usuarios.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAowCEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T11:55:04.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T11:55:04.502Z"
             },
             {
               "$type": "Document",
@@ -364,8 +347,7 @@
               "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1009_Garantias.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T12:36:28.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T12:36:28.571Z"
             },
             {
               "$type": "Document",
@@ -377,8 +359,7 @@
               "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1008_Pagos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAcwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T12:18:11.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T12:18:11.518Z"
             },
             {
               "$type": "Document",
@@ -390,8 +371,7 @@
               "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1006_UnidadesFuncionales.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAcwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T12:15:28.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T12:15:28.411Z"
             },
             {
               "$type": "Document",
@@ -403,8 +383,7 @@
               "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1005_Propiedades.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAcwBcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T12:11:57.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T12:11:57.518Z"
             },
             {
               "$type": "Document",
@@ -416,8 +395,7 @@
               "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1004_Inquilinos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T12:10:15.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T12:10:15.154Z"
             },
             {
               "$type": "Document",
@@ -429,8 +407,7 @@
               "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1003_Propietarios.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T12:06:52.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T12:06:52.188Z"
             }
           ]
         }

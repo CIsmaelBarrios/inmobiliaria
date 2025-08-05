@@ -1,41 +1,62 @@
-# Prerequisites
-*.d
+# Archivos y carpetas de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Compiled Object files
+# Archivos de build de .NET
+bin/
+obj/
+
+# Archivos de publicación
+out/
+publish/
+wwwroot/dist/
+wwwroot/node_modules/
+
+# Archivos de configuración
+appsettings.*.json
+secrets.json
+
+# Archivos de paquetes
+*.nupkg
+*.snupkg
+
+# Carpetas y archivos del sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Otros archivos generados
+*.log
+*.tmp
+*.bak
+
+# Node.js (si usás Angular, React u otro frontend con Node)
+node_modules/
+
+# Tu configuración original (opcional si querés mantenerla)
+*.d
 *.slo
 *.lo
 *.o
 *.obj
-
-# Precompiled Headers
 *.gch
 *.pch
-
-# Linker files
 *.ilk
-
-# Debugger Files
 *.pdb
-
-# Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
 *.mod
 *.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
-
-# Executables
 *.exe
 *.out
 *.app
-
-# debug information files
 *.dwo
