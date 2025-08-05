@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Inmobiliaria.Controllers.Contracts;
 using Inmobiliaria.Data;
-using Inmobiliaria.Domain.Entities;
+using Inmobiliaria.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Inmobiliaria.Controllers
