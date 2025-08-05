@@ -27,7 +27,7 @@ public static partial class PropiedadesExtensions
         return queryable.Where(q => q.Estado == estado);
     }
 
-    public static Inmobiliaria.Data.Entities.Propiedades? GetByKey(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propiedades> queryable, Guid idPropiedad)
+    public static Inmobiliaria.Data.Entities.Propiedades? GetByKey(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propiedades> queryable, long idPropiedad)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));
@@ -38,7 +38,7 @@ public static partial class PropiedadesExtensions
         return queryable.FirstOrDefault(q => q.IdPropiedad == idPropiedad);
     }
 
-    public static async System.Threading.Tasks.ValueTask<Inmobiliaria.Data.Entities.Propiedades?> GetByKeyAsync(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propiedades> queryable, Guid idPropiedad, System.Threading.CancellationToken cancellationToken = default)
+    public static async System.Threading.Tasks.ValueTask<Inmobiliaria.Data.Entities.Propiedades?> GetByKeyAsync(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propiedades> queryable, long idPropiedad, System.Threading.CancellationToken cancellationToken = default)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));
@@ -49,7 +49,7 @@ public static partial class PropiedadesExtensions
         return await queryable.FirstOrDefaultAsync(q => q.IdPropiedad == idPropiedad, cancellationToken);
     }
 
-    public static System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propiedades> ByIdPropietario(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propiedades> queryable, Guid idPropietario)
+    public static System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propiedades> ByIdPropietario(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propiedades> queryable, long idPropietario)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));
@@ -57,7 +57,7 @@ public static partial class PropiedadesExtensions
         return queryable.Where(q => q.IdPropietario == idPropietario);
     }
 
-    public static System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propiedades> ByIdTenant(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propiedades> queryable, Guid idTenant)
+    public static System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propiedades> ByIdTenant(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propiedades> queryable, long idTenant)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));

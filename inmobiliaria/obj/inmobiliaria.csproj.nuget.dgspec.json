@@ -58,6 +58,14 @@
               "target": "Package",
               "version": "[7.1.0, )"
             },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "FluentMigrator.Runner.Postgres": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.1, )"

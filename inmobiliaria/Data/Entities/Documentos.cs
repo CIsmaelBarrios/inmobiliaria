@@ -12,13 +12,13 @@ public partial class Documentos
     }
 
     #region Generated Properties
-    public Guid IdDocumento { get; set; }
+    public long IdDocumento { get; set; }
 
-    public Guid IdTenant { get; set; }
+    public long IdTenant { get; set; }
 
     public string EntidadTipo { get; set; } = null!;
 
-    public Guid EntidadId { get; set; }
+    public long EntidadId { get; set; }
 
     public string NombreArchivo { get; set; } = null!;
 
@@ -34,7 +34,7 @@ public partial class Documentos
 
     public DateTime FechaSubida { get; set; }
 
-    public Guid? SubidoPor { get; set; }
+    public long? SubidoPor { get; set; }
 
     public bool Activo { get; set; }
 

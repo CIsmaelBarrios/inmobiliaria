@@ -14,11 +14,11 @@ public partial class Propiedades
     }
 
     #region Generated Properties
-    public Guid IdPropiedad { get; set; }
+    public long IdPropiedad { get; set; }
 
-    public Guid IdTenant { get; set; }
+    public long IdTenant { get; set; }
 
-    public Guid IdPropietario { get; set; }
+    public long IdPropietario { get; set; }
 
     public string? Nombre { get; set; }
 
@@ -42,11 +42,11 @@ public partial class Propiedades
 
     public decimal? PrecioBase { get; set; }
 
-    public decimal? Expensas { get; set; }
+    public decimal Expensas { get; set; }
 
     public string? Descripcion { get; set; }
 
-    public string? Caracteristicas { get; set; }
+    public string Caracteristicas { get; set; } = null!;
 
     public bool Activo { get; set; }
 

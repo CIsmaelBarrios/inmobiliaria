@@ -21,26 +21,26 @@ public partial class ContratosMap
         builder.Property(t => t.IdContrato)
             .IsRequired()
             .HasColumnName("id_contrato")
-            .HasColumnType("uuid")
-            .HasDefaultValueSql("uuid_generate_v4()");
+            .HasColumnType("bigint")
+            .ValueGeneratedOnAdd();
 
         builder.Property(t => t.IdTenant)
             .IsRequired()
             .HasColumnName("id_tenant")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.IdInquilino)
             .IsRequired()
             .HasColumnName("id_inquilino")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.IdPropiedad)
             .HasColumnName("id_propiedad")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.IdUnidad)
             .HasColumnName("id_unidad")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.NumeroContrato)
             .HasColumnName("numero_contrato")
@@ -63,16 +63,17 @@ public partial class ContratosMap
             .HasColumnType("numeric(10,2)");
 
         builder.Property(t => t.MontoDeposito)
+            .IsRequired()
             .HasColumnName("monto_deposito")
-            .HasColumnType("numeric(10,2)")
-            .HasDefaultValueSql("0");
+            .HasColumnType("numeric(10,2)");
 
         builder.Property(t => t.AjustePorcentaje)
+            .IsRequired()
             .HasColumnName("ajuste_porcentaje")
-            .HasColumnType("numeric(5,2)")
-            .HasDefaultValueSql("0.00");
+            .HasColumnType("numeric(5,2)");
 
         builder.Property(t => t.PeriodoAjuste)
+            .IsRequired()
             .HasColumnName("periodo_ajuste")
             .HasColumnType("integer")
             .HasDefaultValue(12);
@@ -106,13 +107,13 @@ public partial class ContratosMap
             .IsRequired()
             .HasColumnName("fecha_creacion")
             .HasColumnType("timestamp without time zone")
-            .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            .HasDefaultValueSql("now()");
 
         builder.Property(t => t.FechaActualizacion)
             .IsRequired()
             .HasColumnName("fecha_actualizacion")
             .HasColumnType("timestamp without time zone")
-            .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            .HasDefaultValueSql("now()");
 
         builder.Property(t => t.Eliminado)
             .IsRequired()

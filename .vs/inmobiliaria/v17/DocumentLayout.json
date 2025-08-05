@@ -3,8 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\data\\entities\\documentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\data\\entities\\documentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\controllers\\contracts\\registerrequestcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\controllers\\contracts\\registerrequestcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\controllers\\contracts\\contratocontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\controllers\\contracts\\contratocontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\migrations\\20250730_1007_contratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\migrations\\20250730_1007_contratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\migrations\\20250730_1010_documentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\migrations\\20250730_1010_documentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\controllers\\inquilinocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\controllers\\inquilinocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\controllers\\contracts\\tenantupdatecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\controllers\\contracts\\tenantupdatecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\controllers\\contracts\\tenantresponsecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\controllers\\contracts\\tenantresponsecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\controllers\\contracts\\tenantcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\controllers\\contracts\\tenantcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\controllers\\contracts\\inquilinoscontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\controllers\\contracts\\inquilinoscontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\controllers\\contracts\\inquilinodetallecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\controllers\\contracts\\inquilinodetallecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\controllers\\contracts\\inquilinocreatecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\controllers\\contracts\\inquilinocreatecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\migrations\\20250730_1002_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\migrations\\20250730_1002_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\migrations\\20250730_1001_tenants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\migrations\\20250730_1001_tenants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\migrations\\20250730_1012_crearindices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\migrations\\20250730_1012_crearindices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\migrations\\20250730_1009_garantias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\migrations\\20250730_1009_garantias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\migrations\\20250730_1008_pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\migrations\\20250730_1008_pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\migrations\\20250730_1006_unidadesfuncionales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\migrations\\20250730_1006_unidadesfuncionales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\migrations\\20250730_1005_propiedades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\migrations\\20250730_1005_propiedades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\migrations\\20250730_1004_inquilinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\migrations\\20250730_1004_inquilinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|c:\\users\\pao_isma\\desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\migrations\\20250730_1003_propietarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06584DA5-2A5A-45E2-A64F-458EEB614B72}|inmobiliaria\\inmobiliaria.csproj|solutionrelative:inmobiliaria\\migrations\\20250730_1003_propietarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +122,314 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContratoContract.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\ContratoContract.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Controllers\\Contracts\\ContratoContract.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\ContratoContract.cs",
+              "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\ContratoContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T14:20:22.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TenantController.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\TenantController.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Controllers\\TenantController.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\TenantController.cs",
+              "RelativeToolTip": "inmobiliaria\\Controllers\\TenantController.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAswMwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T18:35:36.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250730_1007_Contratos.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1007_Contratos.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Migrations\\20250730_1007_Contratos.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1007_Contratos.cs",
+              "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1007_Contratos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:17:02.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "inmobiliaria\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAA/wHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T14:18:05.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Program.cs",
               "RelativeDocumentMoniker": "inmobiliaria\\Program.cs",
               "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Program.cs",
               "RelativeToolTip": "inmobiliaria\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAwwEcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T14:14:59.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InquilinoController.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\InquilinoController.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Controllers\\InquilinoController.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\InquilinoController.cs",
+              "RelativeToolTip": "inmobiliaria\\Controllers\\InquilinoController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAwwKgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T14:30:56.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Documentos.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Data\\Entities\\Documentos.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Data\\Entities\\Documentos.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Data\\Entities\\Documentos.cs",
+              "RelativeToolTip": "inmobiliaria\\Data\\Entities\\Documentos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T14:51:53.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterRequestContract.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\RegisterRequestContract.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Controllers\\Contracts\\RegisterRequestContract.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\RegisterRequestContract.cs",
+              "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\RegisterRequestContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T14:28:35.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250730_1010_Documentos.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1010_Documentos.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Migrations\\20250730_1010_Documentos.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1010_Documentos.cs",
+              "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1010_Documentos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:37:40.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TenantUpdateContract.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\TenantUpdateContract.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Controllers\\Contracts\\TenantUpdateContract.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\TenantUpdateContract.cs",
+              "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\TenantUpdateContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T18:33:17.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TenantResponseContract.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\TenantResponseContract.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Controllers\\Contracts\\TenantResponseContract.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\TenantResponseContract.cs",
+              "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\TenantResponseContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T18:34:39.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TenantContract.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\TenantContract.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Controllers\\Contracts\\TenantContract.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\TenantContract.cs",
+              "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\TenantContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T18:26:28.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InquilinosContract.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\InquilinosContract.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Controllers\\Contracts\\InquilinosContract.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\InquilinosContract.cs",
+              "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\InquilinosContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvx0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T14:27:50.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InquilinoDetalleContract.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\InquilinoDetalleContract.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Controllers\\Contracts\\InquilinoDetalleContract.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\InquilinoDetalleContract.cs",
+              "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\InquilinoDetalleContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T14:25:25.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InquilinoCreateContract.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\InquilinoCreateContract.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Controllers\\Contracts\\InquilinoCreateContract.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Controllers\\Contracts\\InquilinoCreateContract.cs",
+              "RelativeToolTip": "inmobiliaria\\Controllers\\Contracts\\InquilinoCreateContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T14:24:22.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250730_1012_CrearIndices.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1012_CrearIndices.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Migrations\\20250730_1012_CrearIndices.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1012_CrearIndices.cs",
+              "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1012_CrearIndices.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCMAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:52:39.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250730_1001_Tenants.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1001_Tenants.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Migrations\\20250730_1001_Tenants.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1001_Tenants.cs",
+              "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1001_Tenants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:48:49.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250730_1002_Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1002_Usuarios.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Migrations\\20250730_1002_Usuarios.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1002_Usuarios.cs",
+              "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1002_Usuarios.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowCEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:55:04.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250730_1009_Garantias.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1009_Garantias.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Migrations\\20250730_1009_Garantias.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1009_Garantias.cs",
+              "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1009_Garantias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:36:28.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250730_1008_Pagos.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1008_Pagos.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Migrations\\20250730_1008_Pagos.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1008_Pagos.cs",
+              "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1008_Pagos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:18:11.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250730_1006_UnidadesFuncionales.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1006_UnidadesFuncionales.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Migrations\\20250730_1006_UnidadesFuncionales.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1006_UnidadesFuncionales.cs",
+              "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1006_UnidadesFuncionales.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:15:28.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250730_1005_Propiedades.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1005_Propiedades.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Migrations\\20250730_1005_Propiedades.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1005_Propiedades.cs",
+              "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1005_Propiedades.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:11:57.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250730_1004_Inquilinos.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1004_Inquilinos.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Migrations\\20250730_1004_Inquilinos.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1004_Inquilinos.cs",
+              "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1004_Inquilinos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:10:15.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250730_1003_Propietarios.cs",
+              "DocumentMoniker": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1003_Propietarios.cs",
+              "RelativeDocumentMoniker": "inmobiliaria\\Migrations\\20250730_1003_Propietarios.cs",
+              "ToolTip": "C:\\Users\\Pao_Isma\\Desktop\\inmobiliaria\\inmobiliaria\\inmobiliaria\\Migrations\\20250730_1003_Propietarios.cs",
+              "RelativeToolTip": "inmobiliaria\\Migrations\\20250730_1003_Propietarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:06:52.188Z",
               "EditorCaption": ""
             }
           ]

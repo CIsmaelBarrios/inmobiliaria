@@ -33,11 +33,10 @@ public partial class AppDbContext : DbContext
 
     public virtual DbSet<Inmobiliaria.Data.Entities.Usuarios> Usuarios { get; set; } = null!;
 
-    public virtual DbSet<Inmobiliaria.Data.Entities.VContratosActivos> VContratosActivos { get; set; } = null!;
-
-    public virtual DbSet<Inmobiliaria.Data.Entities.VUnidadesCompleta> VUnidadesCompleta { get; set; } = null!;
+    public virtual DbSet<Inmobiliaria.Data.Entities.VersionInfo> VersionInfo { get; set; } = null!;
 
     #endregion
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         #region Generated Configuration
@@ -51,8 +50,7 @@ public partial class AppDbContext : DbContext
         modelBuilder.ApplyConfiguration(new Inmobiliaria.Data.Mapping.PG.TenantsMap());
         modelBuilder.ApplyConfiguration(new Inmobiliaria.Data.Mapping.PG.UnidadesFuncionalesMap());
         modelBuilder.ApplyConfiguration(new Inmobiliaria.Data.Mapping.PG.UsuariosMap());
-        modelBuilder.ApplyConfiguration(new Inmobiliaria.Data.Mapping.PG.VContratosActivosMap());
-        modelBuilder.ApplyConfiguration(new Inmobiliaria.Data.Mapping.PG.VUnidadesCompletaMap());
+        modelBuilder.ApplyConfiguration(new Inmobiliaria.Data.Mapping.PG.VersionInfoMap());
         #endregion
     }
 }

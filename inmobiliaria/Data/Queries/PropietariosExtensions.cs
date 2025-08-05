@@ -19,7 +19,7 @@ public static partial class PropietariosExtensions
         return queryable.Where(q => q.Dni == dni);
     }
 
-    public static Inmobiliaria.Data.Entities.Propietarios? GetByKey(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propietarios> queryable, Guid idPropietario)
+    public static Inmobiliaria.Data.Entities.Propietarios? GetByKey(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propietarios> queryable, long idPropietario)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));
@@ -30,7 +30,7 @@ public static partial class PropietariosExtensions
         return queryable.FirstOrDefault(q => q.IdPropietario == idPropietario);
     }
 
-    public static async System.Threading.Tasks.ValueTask<Inmobiliaria.Data.Entities.Propietarios?> GetByKeyAsync(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propietarios> queryable, Guid idPropietario, System.Threading.CancellationToken cancellationToken = default)
+    public static async System.Threading.Tasks.ValueTask<Inmobiliaria.Data.Entities.Propietarios?> GetByKeyAsync(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propietarios> queryable, long idPropietario, System.Threading.CancellationToken cancellationToken = default)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));
@@ -41,7 +41,7 @@ public static partial class PropietariosExtensions
         return await queryable.FirstOrDefaultAsync(q => q.IdPropietario == idPropietario, cancellationToken);
     }
 
-    public static System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propietarios> ByIdTenant(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propietarios> queryable, Guid idTenant)
+    public static System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propietarios> ByIdTenant(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Propietarios> queryable, long idTenant)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));

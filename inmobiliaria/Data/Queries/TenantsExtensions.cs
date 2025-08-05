@@ -19,7 +19,7 @@ public static partial class TenantsExtensions
         return queryable.Where(q => q.Activo == activo);
     }
 
-    public static Inmobiliaria.Data.Entities.Tenants? GetByKey(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Tenants> queryable, Guid idTenant)
+    public static Inmobiliaria.Data.Entities.Tenants? GetByKey(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Tenants> queryable, long idTenant)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));
@@ -30,7 +30,7 @@ public static partial class TenantsExtensions
         return queryable.FirstOrDefault(q => q.IdTenant == idTenant);
     }
 
-    public static async System.Threading.Tasks.ValueTask<Inmobiliaria.Data.Entities.Tenants?> GetByKeyAsync(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Tenants> queryable, Guid idTenant, System.Threading.CancellationToken cancellationToken = default)
+    public static async System.Threading.Tasks.ValueTask<Inmobiliaria.Data.Entities.Tenants?> GetByKeyAsync(this System.Linq.IQueryable<Inmobiliaria.Data.Entities.Tenants> queryable, long idTenant, System.Threading.CancellationToken cancellationToken = default)
     {
         if (queryable is null)
             throw new ArgumentNullException(nameof(queryable));

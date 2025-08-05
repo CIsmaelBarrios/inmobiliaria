@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Inmobiliaria.Controllers.Contracts;
 using Inmobiliaria.Data;
-using Inmobiliaria.Data.Entities;
+using Inmobiliaria.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Inmobiliaria.Controllers
@@ -51,8 +51,8 @@ namespace Inmobiliaria.Controllers
         }
 
         // GET: api/Inquilino/{id}
-        [HttpGet("{id}")]
-        public async Task<ActionResult<InquilinosContract>> GetInquilino(Guid id)
+        [HttpGet("{id:long}")]
+        public async Task<ActionResult<InquilinosContract>> GetInquilino(long id)
         {
             var i = await _context.Inquilinos.FirstOrDefaultAsync(x => x.IdInquilino == id && !x.Eliminado);
 
@@ -95,8 +95,8 @@ namespace Inmobiliaria.Controllers
 
             var nuevo = new Inquilinos
             {
-                IdInquilino = Guid.NewGuid(),
-                IdTenant = dto.IdTenant ?? Guid.Empty,
+                // IdInquilino lo genera la BD automáticamente (auto-incremental)
+                IdTenant = dto.IdTenant ?? 0,
                 Nombre = dto.Nombre,
                 Apellido = dto.Apellido,
                 Dni = dto.Dni,
@@ -121,8 +121,8 @@ namespace Inmobiliaria.Controllers
         }
 
         // PUT: api/Inquilino/{id}
-        [HttpPut("{id}")]
-        public async Task<IActionResult> ActualizarInquilino(Guid id, InquilinoCreateContract dto)
+        [HttpPut("{id:long}")]
+        public async Task<IActionResult> ActualizarInquilino(long id, InquilinoCreateContract dto)
         {
             var inquilino = await _context.Inquilinos.FirstOrDefaultAsync(x => x.IdInquilino == id && !x.Eliminado);
             if (inquilino == null)
@@ -146,8 +146,8 @@ namespace Inmobiliaria.Controllers
         }
 
         // DELETE: api/Inquilino/{id}
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> EliminarInquilino(Guid id)
+        [HttpDelete("{id:long}")]
+        public async Task<IActionResult> EliminarInquilino(long id)
         {
             var inquilino = await _context.Inquilinos.FindAsync(id);
 

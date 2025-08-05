@@ -21,18 +21,18 @@ public partial class GarantiasMap
         builder.Property(t => t.IdGarantia)
             .IsRequired()
             .HasColumnName("id_garantia")
-            .HasColumnType("uuid")
-            .HasDefaultValueSql("uuid_generate_v4()");
+            .HasColumnType("bigint")
+            .ValueGeneratedOnAdd();
 
         builder.Property(t => t.IdTenant)
             .IsRequired()
             .HasColumnName("id_tenant")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.IdContrato)
             .IsRequired()
             .HasColumnName("id_contrato")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.Tipo)
             .IsRequired()
@@ -73,6 +73,7 @@ public partial class GarantiasMap
             .HasColumnType("text");
 
         builder.Property(t => t.Documentos)
+            .IsRequired()
             .HasColumnName("documentos")
             .HasColumnType("jsonb")
             .HasDefaultValueSql("'[]'::jsonb");
@@ -87,7 +88,7 @@ public partial class GarantiasMap
             .IsRequired()
             .HasColumnName("fecha_creacion")
             .HasColumnType("timestamp without time zone")
-            .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            .HasDefaultValueSql("now()");
 
         builder.Property(t => t.Eliminado)
             .IsRequired()

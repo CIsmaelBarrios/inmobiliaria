@@ -21,18 +21,18 @@ public partial class UnidadesFuncionalesMap
         builder.Property(t => t.IdUnidad)
             .IsRequired()
             .HasColumnName("id_unidad")
-            .HasColumnType("uuid")
-            .HasDefaultValueSql("uuid_generate_v4()");
+            .HasColumnType("bigint")
+            .ValueGeneratedOnAdd();
 
         builder.Property(t => t.IdTenant)
             .IsRequired()
             .HasColumnName("id_tenant")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.IdPropiedad)
             .IsRequired()
             .HasColumnName("id_propiedad")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.Codigo)
             .IsRequired()
@@ -77,21 +77,25 @@ public partial class UnidadesFuncionalesMap
             .HasColumnType("integer");
 
         builder.Property(t => t.Cocheras)
+            .IsRequired()
             .HasColumnName("cocheras")
             .HasColumnType("integer")
             .HasDefaultValue(0);
 
         builder.Property(t => t.Balcon)
+            .IsRequired()
             .HasColumnName("balcon")
             .HasColumnType("boolean")
             .HasDefaultValue(false);
 
         builder.Property(t => t.Terraza)
+            .IsRequired()
             .HasColumnName("terraza")
             .HasColumnType("boolean")
             .HasDefaultValue(false);
 
         builder.Property(t => t.Parrilla)
+            .IsRequired()
             .HasColumnName("parrilla")
             .HasColumnType("boolean")
             .HasDefaultValue(false);
@@ -112,15 +116,16 @@ public partial class UnidadesFuncionalesMap
             .HasColumnType("numeric(12,2)");
 
         builder.Property(t => t.Expensas)
+            .IsRequired()
             .HasColumnName("expensas")
-            .HasColumnType("numeric(8,2)")
-            .HasDefaultValueSql("0");
+            .HasColumnType("numeric(8,2)");
 
         builder.Property(t => t.Descripcion)
             .HasColumnName("descripcion")
             .HasColumnType("text");
 
         builder.Property(t => t.Caracteristicas)
+            .IsRequired()
             .HasColumnName("caracteristicas")
             .HasColumnType("jsonb")
             .HasDefaultValueSql("'{}'::jsonb");
@@ -135,13 +140,13 @@ public partial class UnidadesFuncionalesMap
             .IsRequired()
             .HasColumnName("fecha_creacion")
             .HasColumnType("timestamp without time zone")
-            .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            .HasDefaultValueSql("now()");
 
         builder.Property(t => t.FechaActualizacion)
             .IsRequired()
             .HasColumnName("fecha_actualizacion")
             .HasColumnType("timestamp without time zone")
-            .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            .HasDefaultValueSql("now()");
 
         builder.Property(t => t.Eliminado)
             .IsRequired()

@@ -21,13 +21,13 @@ public partial class DocumentosMap
         builder.Property(t => t.IdDocumento)
             .IsRequired()
             .HasColumnName("id_documento")
-            .HasColumnType("uuid")
-            .HasDefaultValueSql("uuid_generate_v4()");
+            .HasColumnType("bigint")
+            .ValueGeneratedOnAdd();
 
         builder.Property(t => t.IdTenant)
             .IsRequired()
             .HasColumnName("id_tenant")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.EntidadTipo)
             .IsRequired()
@@ -38,7 +38,7 @@ public partial class DocumentosMap
         builder.Property(t => t.EntidadId)
             .IsRequired()
             .HasColumnName("entidad_id")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.NombreArchivo)
             .IsRequired()
@@ -72,11 +72,11 @@ public partial class DocumentosMap
             .IsRequired()
             .HasColumnName("fecha_subida")
             .HasColumnType("timestamp without time zone")
-            .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            .HasDefaultValueSql("now()");
 
         builder.Property(t => t.SubidoPor)
             .HasColumnName("subido_por")
-            .HasColumnType("uuid");
+            .HasColumnType("bigint");
 
         builder.Property(t => t.Activo)
             .IsRequired()

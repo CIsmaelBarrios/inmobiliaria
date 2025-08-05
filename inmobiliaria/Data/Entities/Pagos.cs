@@ -12,11 +12,11 @@ public partial class Pagos
     }
 
     #region Generated Properties
-    public Guid IdPago { get; set; }
+    public long IdPago { get; set; }
 
-    public Guid IdTenant { get; set; }
+    public long IdTenant { get; set; }
 
-    public Guid IdContrato { get; set; }
+    public long IdContrato { get; set; }
 
     public string? NumeroRecibo { get; set; }
 
@@ -28,13 +28,13 @@ public partial class Pagos
 
     public decimal MontoAlquiler { get; set; }
 
-    public decimal? MontoExpensas { get; set; }
+    public decimal MontoExpensas { get; set; }
 
-    public decimal? MontoServicios { get; set; }
+    public decimal MontoServicios { get; set; }
 
-    public decimal? Recargos { get; set; }
+    public decimal Recargos { get; set; }
 
-    public decimal? Descuentos { get; set; }
+    public decimal Descuentos { get; set; }
 
     public string FormaPago { get; set; } = null!;
 
