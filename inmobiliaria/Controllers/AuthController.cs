@@ -4,7 +4,6 @@ using Inmobiliaria.Data;
 using Inmobiliaria.Data.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
 namespace Inmobiliaria.Controllers
 {
     [ApiController]
